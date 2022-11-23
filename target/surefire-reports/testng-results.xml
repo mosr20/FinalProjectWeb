@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15002" started-at="2022-11-23T14:20:47 IST" finished-at="2022-11-23T14:21:02 IST">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="15002" started-at="2022-11-23T14:20:47 IST" finished-at="2022-11-23T14:21:02 IST">
+      <class name="sanity.SaucedemoWeb">
+        <test-method status="PASS" signature="startSession()[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="startSession" is-config="true" duration-ms="6003" started-at="2022-11-23T14:20:47 IST" finished-at="2022-11-23T14:20:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="beforeMethod" is-config="true" duration-ms="103" started-at="2022-11-23T14:20:53 IST" finished-at="2022-11-23T14:20:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SaucedemoWeb.test01()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test01()[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="test01" duration-ms="1448" started-at="2022-11-23T14:20:53 IST" description="test01_veryfi_title" finished-at="2022-11-23T14:20:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="logout" is-config="true" duration-ms="462" started-at="2022-11-23T14:20:54 IST" finished-at="2022-11-23T14:20:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2022-11-23T14:20:55 IST" finished-at="2022-11-23T14:20:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SaucedemoWeb.test02()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test02()[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="test02" duration-ms="923" started-at="2022-11-23T14:20:55 IST" description="test02_veryfi_namber_of_element" finished-at="2022-11-23T14:20:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="logout" is-config="true" duration-ms="906" started-at="2022-11-23T14:20:56 IST" finished-at="2022-11-23T14:20:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2022-11-23T14:20:57 IST" finished-at="2022-11-23T14:20:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SaucedemoWeb.test03()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test03()[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="test03" duration-ms="800" started-at="2022-11-23T14:20:57 IST" description="test03_veryfiprodcart" finished-at="2022-11-23T14:20:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="logout" is-config="true" duration-ms="919" started-at="2022-11-23T14:20:58 IST" finished-at="2022-11-23T14:20:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2022-11-23T14:20:59 IST" finished-at="2022-11-23T14:20:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SaucedemoWeb.test04() throws org.sikuli.script.FindFailed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test04()[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="test04" duration-ms="1683" started-at="2022-11-23T14:20:59 IST" description="test04_veryfiprodcart" finished-at="2022-11-23T14:21:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="logout" is-config="true" duration-ms="899" started-at="2022-11-23T14:21:00 IST" finished-at="2022-11-23T14:21:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:sanity.SaucedemoWeb@2fd1731c]" name="closeSession" is-config="true" duration-ms="167" started-at="2022-11-23T14:21:01 IST" finished-at="2022-11-23T14:21:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- sanity.SaucedemoWeb -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>

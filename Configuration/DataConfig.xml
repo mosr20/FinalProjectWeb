@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+    <Urlweb>https://www.saucedemo.com/</Urlweb>
+    <LoginUser>standard_user</LoginUser>
+    <LoginPass>secret_sauce</LoginPass>
+    <BrowserType>chrome</BrowserType>
+    <PlatformeType>web</PlatformeType>
+    <Timeouts>5</Timeouts>
+    <ProductType>productsbackpack</ProductType>
+    <ImageRepo>C:\\FinalProjectWeb\\ImageRepository\\</ImageRepo>
+    <DDTfile>./DDTFiles/DataWeb.csv</DDTfile>
+
+</Environment>
