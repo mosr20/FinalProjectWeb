@@ -4,7 +4,6 @@
     <LoginUser>standard_user</LoginUser>
     <LoginPass>secret_sauce</LoginPass>
     <BrowserType>chrome</BrowserType>
-    <PlatformeType>web</PlatformeType>
     <Timeouts>5</Timeouts>
     <ProductType>productsbackpack</ProductType>
     <ImageRepo>C:\\FinalProjectWeb\\ImageRepository\\</ImageRepo>

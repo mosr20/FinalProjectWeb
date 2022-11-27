@@ -82,14 +82,8 @@ public class CommonOps extends Base {
 
     @BeforeClass
     public  void startSession() throws IOException {
-
         screen = new Screen();
-        String PlatformeType = getData("PlatformeType");
-        if(PlatformeType.equalsIgnoreCase("web"))
-            initBrowser(getData("BrowserType"));
-        else
-            throw new RuntimeException("Invalid Platforme");
-
+        initBrowser(getData("BrowserType"));
     }
     @BeforeMethod
     public void beforeMethod(Method method) {
