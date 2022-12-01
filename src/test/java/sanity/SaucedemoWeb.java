@@ -25,14 +25,14 @@ public class SaucedemoWeb extends CommonOps  {
     public void test03(){
         WebFlows.log_in(getData("LoginUser"),getData("LoginPass"));
         WebFlows.add_to_cart(getData("ProductType"));
-        Verfications.veryfiprodcart(cart.cartBackpack);
+        Verfications.veryfiProdInCart(cart.cartBackpack);
 
     }
 
     @Test(description = "test04_veryfiprodcart")
     public void test04() throws FindFailed {
         WebFlows.log_in(getData("LoginUser"),getData("LoginPass"));
-        Verfications.veryfivisualelement("Sauce Labs Backpack");
+        Verfications.veryfiVisualElement("Sauce Labs Backpack");
 
     }
 

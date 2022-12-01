@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13699" started-at="2022-11-27T16:40:23 IST" finished-at="2022-11-27T16:40:37 IST">
+  <suite name="Suite" duration-ms="12931" started-at="2022-11-28T09:06:06 IST" finished-at="2022-11-28T09:06:19 IST">
     <groups>
     </groups>
-    <test name="test" duration-ms="13699" started-at="2022-11-27T16:40:23 IST" finished-at="2022-11-27T16:40:37 IST">
+    <test name="test" duration-ms="12931" started-at="2022-11-28T09:06:06 IST" finished-at="2022-11-28T09:06:19 IST">
       <class name="sanity.SaucedemoWeb">
-        <test-method status="PASS" signature="startSession()[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="startSession" is-config="true" duration-ms="4897" started-at="2022-11-27T16:40:23 IST" finished-at="2022-11-27T16:40:28 IST">
+        <test-method status="PASS" signature="startSession()[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="startSession" is-config="true" duration-ms="4865" started-at="2022-11-28T09:06:06 IST" finished-at="2022-11-28T09:06:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startSession -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="beforeMethod" is-config="true" duration-ms="227" started-at="2022-11-27T16:40:28 IST" finished-at="2022-11-27T16:40:28 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="beforeMethod" is-config="true" duration-ms="206" started-at="2022-11-28T09:06:11 IST" finished-at="2022-11-28T09:06:11 IST">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test01()[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="test01" duration-ms="1133" started-at="2022-11-27T16:40:29 IST" description="test01_veryfi_title" finished-at="2022-11-27T16:40:30 IST">
+        <test-method status="PASS" signature="test01()[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="test01" duration-ms="1183" started-at="2022-11-28T09:06:12 IST" description="test01_veryfi_title" finished-at="2022-11-28T09:06:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="logout" is-config="true" duration-ms="921" started-at="2022-11-27T16:40:30 IST" finished-at="2022-11-27T16:40:31 IST">
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="logout" is-config="true" duration-ms="393" started-at="2022-11-28T09:06:13 IST" finished-at="2022-11-28T09:06:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2022-11-27T16:40:31 IST" finished-at="2022-11-27T16:40:31 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2022-11-28T09:06:13 IST" finished-at="2022-11-28T09:06:13 IST">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test02()[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="test02" duration-ms="583" started-at="2022-11-27T16:40:31 IST" description="test02_veryfi_namber_of_element" finished-at="2022-11-27T16:40:31 IST">
+        <test-method status="PASS" signature="test02()[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="test02" duration-ms="562" started-at="2022-11-28T09:06:13 IST" description="test02_veryfi_namber_of_element" finished-at="2022-11-28T09:06:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test02 -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="logout" is-config="true" duration-ms="392" started-at="2022-11-27T16:40:32 IST" finished-at="2022-11-27T16:40:32 IST">
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="logout" is-config="true" duration-ms="447" started-at="2022-11-28T09:06:14 IST" finished-at="2022-11-28T09:06:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2022-11-27T16:40:32 IST" finished-at="2022-11-27T16:40:32 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="beforeMethod" is-config="true" duration-ms="21" started-at="2022-11-28T09:06:15 IST" finished-at="2022-11-28T09:06:15 IST">
           <params>
             <param index="0">
               <value>
@@ -60,15 +60,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test03()[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="test03" duration-ms="952" started-at="2022-11-27T16:40:32 IST" description="test03_veryfiprodcart" finished-at="2022-11-27T16:40:33 IST">
+        <test-method status="PASS" signature="test03()[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="test03" duration-ms="805" started-at="2022-11-28T09:06:15 IST" description="test03_veryfiprodcart" finished-at="2022-11-28T09:06:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test03 -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="logout" is-config="true" duration-ms="913" started-at="2022-11-27T16:40:33 IST" finished-at="2022-11-27T16:40:34 IST">
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="logout" is-config="true" duration-ms="905" started-at="2022-11-28T09:06:15 IST" finished-at="2022-11-28T09:06:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2022-11-27T16:40:34 IST" finished-at="2022-11-27T16:40:34 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2022-11-28T09:06:16 IST" finished-at="2022-11-28T09:06:16 IST">
           <params>
             <param index="0">
               <value>
@@ -79,15 +79,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test04()[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="test04" duration-ms="1691" started-at="2022-11-27T16:40:34 IST" description="test04_veryfiprodcart" finished-at="2022-11-27T16:40:36 IST">
+        <test-method status="PASS" signature="test04()[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="test04" duration-ms="1654" started-at="2022-11-28T09:06:16 IST" description="test04_veryfiprodcart" finished-at="2022-11-28T09:06:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test04 -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="logout" is-config="true" duration-ms="902" started-at="2022-11-27T16:40:36 IST" finished-at="2022-11-27T16:40:37 IST">
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="logout" is-config="true" duration-ms="910" started-at="2022-11-28T09:06:18 IST" finished-at="2022-11-28T09:06:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:sanity.SaucedemoWeb@53499d85]" name="closeSession" is-config="true" duration-ms="240" started-at="2022-11-27T16:40:37 IST" finished-at="2022-11-27T16:40:37 IST">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:sanity.SaucedemoWeb@5ae81e1]" name="closeSession" is-config="true" duration-ms="258" started-at="2022-11-28T09:06:19 IST" finished-at="2022-11-28T09:06:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->

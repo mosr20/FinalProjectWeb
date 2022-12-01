@@ -5,7 +5,7 @@
     <classes>
       <class name="sanity.SaucedemoWeb">
         <methods>
-          <include name="test04"/>
+          <include name="test01"/>
           <include name="logout"/>
           <include name="beforeMethod"/>
           <include name="startSession"/>
