@@ -14,7 +14,7 @@ public class UIAction extends CommonOps {
 
 
     @Step("clice_on_element")
-    //receives an element and makes a click on element770//
+    //receives an element and makes a click on element//
     public static void click(WebElement elem){
         wait.until(ExpectedConditions.elementToBeClickable(elem));
         elem.click();
