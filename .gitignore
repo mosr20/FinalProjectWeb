@@ -1,3 +1,6 @@
+#################
+## Directories
+#################
 .allure-results
 .allure-report
 .target
