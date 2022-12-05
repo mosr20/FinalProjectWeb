@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Nov 28 09:06:12 IST 2022","Mon Nov 28 09:06:13 IST 2022","1210","Suite","test","sanity.SaucedemoWeb","sanity.SaucedemoWeb","test01","test01_veryfi_title",""
-"passed","Mon Nov 28 09:06:13 IST 2022","Mon Nov 28 09:06:14 IST 2022","717","Suite","test","sanity.SaucedemoWeb","sanity.SaucedemoWeb","test02","test02_veryfi_namber_of_element",""
-"passed","Mon Nov 28 09:06:16 IST 2022","Mon Nov 28 09:06:18 IST 2022","1702","Suite","test","sanity.SaucedemoWeb","sanity.SaucedemoWeb","test04","test04_veryfiprodcart",""
-"passed","Mon Nov 28 09:06:15 IST 2022","Mon Nov 28 09:06:15 IST 2022","876","Suite","test","sanity.SaucedemoWeb","sanity.SaucedemoWeb","test03","test03_veryfiprodcart",""
