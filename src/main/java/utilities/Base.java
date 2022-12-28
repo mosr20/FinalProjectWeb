@@ -1,19 +1,11 @@
 package utilities;
-
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import org.json.simple.JSONObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
 import pageobjects.saucedemo.*;
 
-import java.net.URL;
-
 public class Base {
-     static WebDriver driver;
+     static WebDriver  driver;
 
     protected static WebDriverWait wait;
 

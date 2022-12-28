@@ -7,6 +7,8 @@ import org.testng.Assert;
 import utilities.CommonOps;
 import java.util.List;
 
+import static utilities.GetData.getData;
+
 public class Verfications extends CommonOps  {
 
     //receives a element and a string makes a comparison between them//

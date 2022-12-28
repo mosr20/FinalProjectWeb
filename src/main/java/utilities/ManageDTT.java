@@ -1,14 +1,13 @@
 package utilities;
 
 import org.testng.annotations.DataProvider;
-
-import javax.xml.soap.Name;
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.List;
+
+import static utilities.GetData.getData;
 
 public class ManageDTT extends CommonOps{
     @DataProvider(name = "data-provider-login")

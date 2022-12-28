@@ -7,6 +7,8 @@ import org.testng.annotations.Test;
 import utilities.CommonOps;
 import workflows.WebFlows;
 
+import static utilities.GetData.getData;
+
 @Listeners(utilities.Listeners.class)
 public class SaucedemoWeb extends CommonOps  {
     @Test(description = "test01_veryfi_title")
