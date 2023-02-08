@@ -5,7 +5,7 @@ import org.sikuli.script.Screen;
 import pageobjects.saucedemo.*;
 
 public class Base {
-     static WebDriver  driver;
+     protected static WebDriver  driver;
 
     protected static WebDriverWait wait;
 
@@ -20,21 +20,5 @@ public class Base {
     protected static Cart cart;
 
     protected static Screen screen;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

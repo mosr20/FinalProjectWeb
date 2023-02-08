@@ -11,8 +11,6 @@ public class WebFlows extends CommonOps {
         UIAction.sendkeys(login.username,user);
         UIAction.sendkeys(login.password,pass);
         UIAction.click(login.login_button);
-
-
     }
     @Step("WebFlows_Logout")
     public static void log_out(){

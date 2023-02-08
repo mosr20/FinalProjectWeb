@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="93452" started-at="2023-02-08T16:45:35 IST" finished-at="2023-02-08T16:47:08 IST">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="93452" started-at="2023-02-08T16:45:35 IST" finished-at="2023-02-08T16:47:08 IST">
+      <class name="sanity.SaucedemoWeb">
+        <test-method status="PASS" signature="startSession()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="startSession" is-config="true" duration-ms="6524" started-at="2023-02-08T16:45:35 IST" finished-at="2023-02-08T16:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="beforeMethod" is-config="true" duration-ms="271" started-at="2023-02-08T16:45:42 IST" finished-at="2023-02-08T16:45:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SaucedemoWeb.test01()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test01()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="test01" duration-ms="1482" started-at="2023-02-08T16:45:42 IST" description="test01_veryfi_title" finished-at="2023-02-08T16:45:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="logout" is-config="true" duration-ms="460" started-at="2023-02-08T16:45:44 IST" finished-at="2023-02-08T16:45:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="beforeMethod" is-config="true" duration-ms="165" started-at="2023-02-08T16:45:44 IST" finished-at="2023-02-08T16:45:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SaucedemoWeb.test02(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test02(java.lang.String, java.lang.String)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="test02" duration-ms="683" started-at="2023-02-08T16:45:44 IST" description="test02_Negative test login" data-provider="data-provider-login" finished-at="2023-02-08T16:45:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_err_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass_err_1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="logout" is-config="true" duration-ms="15133" started-at="2023-02-08T16:45:45 IST" finished-at="2023-02-08T16:46:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="beforeMethod" is-config="true" duration-ms="137" started-at="2023-02-08T16:46:00 IST" finished-at="2023-02-08T16:46:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SaucedemoWeb.test02(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test02(java.lang.String, java.lang.String)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="test02" duration-ms="828" started-at="2023-02-08T16:46:00 IST" description="test02_Negative test login" data-provider="data-provider-login" finished-at="2023-02-08T16:46:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_err_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass_err_2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="logout" is-config="true" duration-ms="15127" started-at="2023-02-08T16:46:01 IST" finished-at="2023-02-08T16:46:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="beforeMethod" is-config="true" duration-ms="105" started-at="2023-02-08T16:46:16 IST" finished-at="2023-02-08T16:46:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SaucedemoWeb.test02(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test02(java.lang.String, java.lang.String)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="test02" duration-ms="590" started-at="2023-02-08T16:46:17 IST" description="test02_Negative test login" data-provider="data-provider-login" finished-at="2023-02-08T16:46:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_err_3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass_err_3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="logout" is-config="true" duration-ms="15056" started-at="2023-02-08T16:46:17 IST" finished-at="2023-02-08T16:46:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="beforeMethod" is-config="true" duration-ms="97" started-at="2023-02-08T16:46:32 IST" finished-at="2023-02-08T16:46:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SaucedemoWeb.test02(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test02(java.lang.String, java.lang.String)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="test02" duration-ms="696" started-at="2023-02-08T16:46:32 IST" description="test02_Negative test login" data-provider="data-provider-login" finished-at="2023-02-08T16:46:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_err_4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass_err_4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="logout" is-config="true" duration-ms="15143" started-at="2023-02-08T16:46:33 IST" finished-at="2023-02-08T16:46:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="beforeMethod" is-config="true" duration-ms="105" started-at="2023-02-08T16:46:48 IST" finished-at="2023-02-08T16:46:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SaucedemoWeb.test02(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test02(java.lang.String, java.lang.String)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="test02" duration-ms="668" started-at="2023-02-08T16:46:48 IST" description="test02_Negative test login" data-provider="data-provider-login" finished-at="2023-02-08T16:46:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_err_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass_err_5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="logout" is-config="true" duration-ms="15128" started-at="2023-02-08T16:46:49 IST" finished-at="2023-02-08T16:47:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="beforeMethod" is-config="true" duration-ms="134" started-at="2023-02-08T16:47:04 IST" finished-at="2023-02-08T16:47:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SaucedemoWeb.test03()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test03()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="test03" duration-ms="837" started-at="2023-02-08T16:47:04 IST" description="test03_veryfi_namber_of_element" finished-at="2023-02-08T16:47:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="logout" is-config="true" duration-ms="1091" started-at="2023-02-08T16:47:05 IST" finished-at="2023-02-08T16:47:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="beforeMethod" is-config="true" duration-ms="78" started-at="2023-02-08T16:47:06 IST" finished-at="2023-02-08T16:47:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SaucedemoWeb.test04()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test04()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="test04" duration-ms="1112" started-at="2023-02-08T16:47:07 IST" description="test04_veryfiprodcart" finished-at="2023-02-08T16:47:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="logout" is-config="true" duration-ms="418" started-at="2023-02-08T16:47:08 IST" finished-at="2023-02-08T16:47:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:sanity.SaucedemoWeb@1922e6d]" name="closeSession" is-config="true" duration-ms="149" started-at="2023-02-08T16:47:08 IST" finished-at="2023-02-08T16:47:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- sanity.SaucedemoWeb -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>

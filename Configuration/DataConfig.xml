@@ -7,6 +7,4 @@
     <Timeouts>5</Timeouts>
     <ProductType>productsbackpack</ProductType>
     <ImageRepo>C:\\FinalProjectWeb\\ImageRepository\\</ImageRepo>
-    <DDTfile>./DDTFiles/DataWeb.csv</DDTfile>
-
 </Environment>

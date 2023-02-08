@@ -9,32 +9,16 @@ import java.util.List;
 
 import static utilities.GetData.getData;
 
-public class ManageDTT extends CommonOps{
+public class ManageDTT {
     @DataProvider(name = "data-provider-login")
-    public  Object[][] getDataObject()  {
-        return getDataFromCSV(getData("DDTfile"));
-    }
-    public static List<String> readCSV (String csvFile)  {
-        List<String> lines = null;
-        File file = new File(csvFile);
-        try {
-            lines = Files.readAllLines(file.toPath(), StandardCharsets.UTF_8);
-        }
-        catch (IOException e){
-            e.printStackTrace();
-        }
-        return lines;
-
-    }
-    public static  Object[][] getDataFromCSV(String filepath)  {
-        Object [][] data = new Object[3][2];
-        List<String> csvData = readCSV(filepath);
-        for (int i = 0;i<csvData.size();i++){
-            data[i][0] = csvData.get(i).split(",")[0];
-            data[i][1] = csvData.get(i).split(",")[1];
-
-        }
-        return data;
-
+    public  Object[][] getDataObject()
+    {
+        return new  Object[][]{
+        {"user_err_1","pass_err_1"},
+        {"user_err_2","pass_err_2"},
+        {"user_err_3","pass_err_3"},
+        {"user_err_4","pass_err_4"},
+        {"user_err_5","pass_err_5"}
+        };
     }
 }

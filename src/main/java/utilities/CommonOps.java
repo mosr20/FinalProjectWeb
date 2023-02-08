@@ -1,22 +1,12 @@
 package utilities;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import com.lowagie.text.ExceptionConverter;
 import org.sikuli.script.Screen;
+import org.testng.Assert;
 import org.testng.annotations.*;
 import workflows.WebFlows;
-import org.w3c.dom.Document;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
-import java.util.concurrent.TimeUnit;
-
 import static utilities.GetData.getData;
 import static utilities.InitBrowser.initBrowser;
 
@@ -36,9 +26,17 @@ public class CommonOps extends Base {
         catch (Exception e) {
             e.printStackTrace();
         }
+        driver.navigate().refresh();
     }    @AfterMethod
     public void logout(){
+        try {
             WebFlows.log_out();
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+
+
     }
 
     @AfterClass
